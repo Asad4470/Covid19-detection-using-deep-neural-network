@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Model artifacts and generated outputs (large files)
+models/*
+!models/README.md
+results/*
+!results/README.md
+
+# Dataset images should not be committed by default (privacy, licensing, repository size)
+data/COVID/*
+!data/COVID/README.md
+data/NORMAL/*
+!data/NORMAL/README.md
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
